@@ -1,0 +1,25 @@
+{
+  "name": "lyricsdb",
+  "description": "Lyrics Database",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test" : "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redcarrottt/lyricsdb.git"
+  },
+  "keywords": [],
+  "author": [
+    {
+      "name": "Gyeonghwan Hong",
+      "email": "redcarrottt@gmail.com",
+      "url": "http://redcarrottt.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/redcarrottt/lyricsdb/issues"
+  },
+  "homepage": "https://github.com/redcarrottt/lyricsdb"
+}
