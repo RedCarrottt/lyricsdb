@@ -27,7 +27,9 @@ app.get('/lyrics', function(req, res) {
     connection.query('SELECT lyrics from Songs where id=' + id,
         function(err, rows) {
           if(err) throw err;
-          res.send(rows);
+          if(rows.length <= 0) throw "No entry found!";
+          if(rows[0].lyrics === undefined) throw "No lyrics found!";
+          res.send(rows[0].lyrics);
         });
   }
 });
